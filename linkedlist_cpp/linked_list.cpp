@@ -3,6 +3,7 @@ using namespace std;
 
 struct Node {
   int data;
+  int data1;
   struct Node *next;
 };
 struct Node* top = NULL;
